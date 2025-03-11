@@ -1,3 +1,4 @@
+
 # OS-specific files
 .DS_Store
 Thumbs.db
@@ -32,3 +33,14 @@ __pycache__/
 
 # Custom local configuration files
 .env
+
+# Sentinel AI model checkpoints and training data
+/sentinel_ai/models/*
+/sentinel_ai/data/*
+
+# SentinelChain blockchain data
+/sentinel_chain/data/*
+
+# Test reports and coverage data
+/tests/reports/*
+/coverage/*
